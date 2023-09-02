@@ -1,0 +1,118 @@
+<!--21BCT0116-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    table,
+    td,
+    th,
+    tr {
+      border: 1px solid black;
+      padding: 0 13px 0 0;
+      border-collapse: collapse;
+    }
+
+    #text {
+      width: 100%;
+      margin: 2px;
+    }
+  </style>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Task 5</h1>
+      <h3>Registration Form</h3>
+      <table>
+        <tr>
+          <th><label for="abc">First Name: </label></th>
+          <td><input type="text" id="text" /></td>
+        </tr>
+        <tr>
+          <th><label for="abc">Last Name: </label></th>
+          <td><input type="text" id="text" /></td>
+        </tr>
+        <tr>
+          <th><label for="abc">Email: </label></th>
+          <td><input type="email" id="text" /></td>
+        </tr>
+        <tr>
+          <th><label for="abc">Password: </label></th>
+          <td><input type="password" id="text" /></td>
+        </tr>
+        <tr>
+          <th><label for="abc">Re Password: </label></th>
+          <td><input type="password" id="text" /></td>
+        </tr>
+        <tr>
+          <th rowspan="2"><label for="abc">Gender: </label></th>
+          <td><input type="radio" />Female</td>
+        </tr>
+        <tr>
+          <td><input type="radio" />Male</td>
+        </tr>
+        <tr>
+          <th><label for="abc">Age: </label></th>
+          <td><input type="number" id="text" /></td>
+        </tr>
+        <tr>
+          <th><label for="abc">Phone Number: </label></th>
+          <td><input type="tel" id="text" /></td>
+        </tr>
+        <tr>
+          <th><label for="abc">Address: </label></th>
+          <td><input type="text" id="text" /></td>
+        </tr>
+        <tr>
+          <th><label for="abc">State: </label></th>
+          <td><input type="text" id="text" /></td>
+        </tr>
+        <tr>
+          <th><label for="abc">Country: </label></th>
+          <td>
+            <select name="abc" id="text">
+              <option value="Country">Choose your Country</option>
+              <option value="India">India</option>
+              <option value="Pakistan">Pakistan</option>
+              <option value="China">China</option>
+              <option value="Nepal">Nepal</option>
+              <option value="Sri Lanka">Sri Lanka</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="abc">Languages Known </label></th>
+          <td>
+            <table>
+              <tr>
+                <td><input type="checkbox" />English</td>
+                <td><input type="checkbox" />Kanada</td>
+                <td><input type="checkbox" />Hindi</td>
+                <td><input type="checkbox" />Telugu</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <input type="checkbox" />
+            Hereby I declare all the details given are true
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div style="text-align: right">
+              Login to <a href="https://ethnus.com/">Ethnus</a> website
+            </div>
+          </td>
+        </tr>
+      </table>
+      <button>Register</button>
+    </div>
+  </body>
+</html>
